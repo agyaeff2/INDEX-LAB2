@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Montserrat-Medium.ttf';
+    src: url(Fonts/Montserrat-Medium.ttf);
+}
+
+body
+{
+    background-color: rgb(132, 0, 0);
+}
+
+div{
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: #ffffff;
+    width: 40%;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.newaccount{
+    background-color: #f1f1f1;
+    width: 50%;
+    height: 15%;
+    border: none;
+    font-size: 18px;
+    color: #aeaeae;
+    font-family: 'Montserrat-Medium', sans-serif;
+    float: left;
+}
+
+.signin{
+    background-color: #ffffff;
+    width: 50%;
+    height: 15%;
+    font-size: 18px;
+    font-family: 'Montserrat-Medium', sans-serif;
+    color: #aeaeae;
+    border: none;
+
+}
+
+.signin:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.newaccount:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.username{
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=text], input[type=password] {
+    width: 80%;
+    height: 5%;
+    padding: 15px;
+    margin: 40px 0 8px 55px;
+    display: inline-block;
+    border: none;
+    background-color: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .checkbox{
+     margin: 50px;
+     margin-top: 20px;
+
+  }
+
+  .createaccount{
+    background-color: rgb(216, 0, 0);
+    width: 90%;
+    height: 10%;
+    border: none;
+    margin-left: 5%;
+    margin-top: -20px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+
+.createaccount:hover{
+    background-color: rgb(132, 0, 0);
+    color: #aeaeae;
+}
